@@ -2,7 +2,7 @@
 
 ### This was an amazing asynchronous JS project where I've used promises to fetch data from openweathermap.org API
 
-## [Live Website](https://dragoshcode.github.io/weather-app/)
+## [Live Website]()
 
 ## My socials: [Twitter](https://twitter.com/dragoshcode) | [Linkedin](https://linkedin.com/in/dragoshcode)
 
