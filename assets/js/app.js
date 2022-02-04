@@ -12,6 +12,15 @@ let weather = {
     const { temp, humidity } = data.main;
     const { icon, description } = data.weather[0];
     const { speed } = data.wind;
-    console.log(name, temp, humidity, icon, description, speed);
+    document.querySelector('.data').innerHTML = `
+    <h1 class="loc">Weather in ${name}</h1>
+    <h2 class="temp">${temp}°C</h2>
+    <div class='desc flex'>
+      <img src='http://openweathermap.org/img/wn/${icon}.png'/>
+      <h2>${description}<h2/>
+    </div>
+    <h2 class="humidity">Humidity: ${humidity}%</h2>
+    <h2 class="wind">Wind: ${speed}km/h</h2>
+    `;
   },
 };

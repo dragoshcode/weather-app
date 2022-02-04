@@ -76,6 +76,7 @@ main {
   border-radius: 2rem;
   font-family: "Poppins", sans-serif;
   outline: none;
+  font-size: 1.75rem;
 }
 .search button:hover i {
   background-color: #544d4d;
@@ -87,4 +88,31 @@ main {
   border-radius: 50%;
   font-size: 1.15rem;
   transition: 0.15s;
+}
+
+.data {
+  color: #fff;
+}
+.data .loc {
+  margin-top: 2.3rem;
+  font-weight: 500;
+}
+.data .temp {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+.data .desc {
+  gap: 1rem;
+}
+.data .desc img {
+  width: 5rem;
+}
+.data .desc h2 {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.data .humidity,
+.data .wind {
+  font-weight: 400;
 }

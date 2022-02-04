@@ -28,6 +28,7 @@ main {
     border-radius: 2rem;
     font-family: 'Poppins', sans-serif;
     outline: none;
+    font-size: 1.75rem;
   }
 
   button:hover i {
@@ -41,5 +42,37 @@ main {
     border-radius: 50%;
     font-size: 1.15rem;
     transition: 0.15s;
+  }
+}
+
+.data {
+  color: #fff;
+
+  .loc {
+    margin-top: 2.3rem;
+    font-weight: 500;
+  }
+
+  .temp {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    font-weight: 400;
+  }
+
+  .desc {
+    gap: 1rem;
+    img {
+      width: 5rem;
+    }
+
+    h2 {
+      text-transform: capitalize;
+      font-weight: 400;
+    }
+  }
+
+  .humidity,
+  .wind {
+    font-weight: 400;
   }
 }
