@@ -22,5 +22,18 @@ let weather = {
     <h2 class="humidity">Humidity: ${humidity}%</h2>
     <h2 class="wind">Wind: ${speed}km/h</h2>
     `;
+    document.querySelector('main').classList.remove('loading');
+    document.body.style.backgroundImage = `url(https://source.unsplash.com/1920x1080/?${name})`;
+  },
+  search: function () {
+    this.fetchWeather(document.querySelector('.search input').value);
   },
 };
+
+document
+  .querySelector('.search button')
+  .addEventListener('click', () => weather.search());
+
+document.querySelector('.search input').addEventListener('keyup', (e) => {
+  if (e.key == 'Enter') weather.search();
+});

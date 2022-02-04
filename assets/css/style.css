@@ -48,7 +48,7 @@ input {
 
 body {
   justify-content: center;
-  background-image: url(https://source.unsplash.com/1920x1080/?landscape);
+  background-image: url(https://images.unsplash.com/photo-1553411256-393ac26e7cc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,6 +64,10 @@ main {
   padding: 3rem;
 }
 
+main.loading {
+  min-height: 0;
+}
+
 .search {
   justify-content: center;
   gap: 1rem;
@@ -76,7 +80,7 @@ main {
   border-radius: 2rem;
   font-family: "Poppins", sans-serif;
   outline: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 .search button:hover i {
   background-color: #544d4d;
