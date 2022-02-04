@@ -2,7 +2,7 @@
 
 ### This was an amazing asynchronous JS project where I've used promises to fetch data from openweathermap.org API
 
-## [Live Website]()
+## [Live Website](https://dragoshcode-weather-app.netlify.app)
 
 ## My socials: [Twitter](https://twitter.com/dragoshcode) | [Linkedin](https://linkedin.com/in/dragoshcode)
 
