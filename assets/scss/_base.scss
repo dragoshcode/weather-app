@@ -1,0 +1,36 @@
+body {
+  justify-content: center;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.865);
+  border-radius: 2rem;
+  min-height: 25rem;
+  width: 90%;
+  max-width: 45rem;
+  margin-inline: auto;
+  padding: 3rem;
+}
+
+.search {
+  justify-content: center;
+  gap: 1rem;
+
+  input {
+    width: 90%;
+    background-color: rgb(52, 46, 46);
+    padding: 0.75rem 1.35rem;
+    color: #fff;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+  }
+
+  i {
+    color: #fff;
+    background-color: rgb(52, 46, 46);
+    padding: 1.15rem;
+    border-radius: 50%;
+    font-size: 1.15rem;
+  }
+}

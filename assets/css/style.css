@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+body {
+  justify-content: center;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.865);
+  border-radius: 2rem;
+  min-height: 25rem;
+  width: 90%;
+  max-width: 45rem;
+  margin-inline: auto;
+  padding: 3rem;
+}
+
+.search {
+  justify-content: center;
+  gap: 1rem;
+}
+.search input {
+  width: 90%;
+  background-color: #342e2e;
+  padding: 0.75rem 1.35rem;
+  color: #fff;
+  border-radius: 2rem;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+.search i {
+  color: #fff;
+  background-color: #342e2e;
+  padding: 1.15rem;
+  border-radius: 50%;
+  font-size: 1.15rem;
+}
