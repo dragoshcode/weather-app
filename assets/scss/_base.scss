@@ -1,5 +1,9 @@
 body {
   justify-content: center;
+  background-image: url(https://source.unsplash.com/1920x1080/?landscape);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
@@ -26,11 +30,16 @@ main {
     outline: none;
   }
 
+  button:hover i {
+    background-color: rgb(84, 77, 77);
+  }
+
   i {
     color: #fff;
     background-color: rgb(52, 46, 46);
     padding: 1.15rem;
     border-radius: 50%;
     font-size: 1.15rem;
+    transition: 0.15s;
   }
 }

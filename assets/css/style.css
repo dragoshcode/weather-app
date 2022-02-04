@@ -48,6 +48,10 @@ input {
 
 body {
   justify-content: center;
+  background-image: url(https://source.unsplash.com/1920x1080/?landscape);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
@@ -73,10 +77,14 @@ main {
   font-family: "Poppins", sans-serif;
   outline: none;
 }
+.search button:hover i {
+  background-color: #544d4d;
+}
 .search i {
   color: #fff;
   background-color: #342e2e;
   padding: 1.15rem;
   border-radius: 50%;
   font-size: 1.15rem;
+  transition: 0.15s;
 }
